@@ -1,0 +1,58 @@
+.hero {
+  position: relative;
+}
+.hero img {
+  display: block;
+  width: 400px;
+  height: 500px;
+  background-image: linear-gradient(190deg, rgba(white, 0%), rgba(black, 100%));
+}
+.hero img {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 10%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 40%;
+}
+.dotes {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 6%;
+  right: 36%;
+  /* margin-right: 40px;
+  margin-top: 40px; */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #e3bed6be;
+}
+
+.transparent_gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4.0208333333vw;
+  border-radius: 20px;
+  background: linear-gradient(180deg, transparent 0, black 100%);
+}
+
+.logo {
+  border-radius: 100%;
+  position: absolute;
+  height: 30%;
+  width: 10%;
+  padding: 300px 20px 10px 25px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+#logo {
+  border-radius: 100%;
+}

@@ -1,0 +1,94 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  top: 0;
+  right: 0;
+  background-color: rgb(241, 239, 239);
+  width: 350px;
+  height: 330px;
+  border-radius: 10px;
+}
+.name {
+  height: 40px;
+  top: 0px;
+  margin-bottom: 20px;
+}
+.cross {
+  width: 100%;
+  height: 0vh;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 20px 0px 0px;
+}
+
+.name h3 {
+  align-items: center;
+  font-weight: bold;
+  font-size: x-large;
+  font-family: monospace;
+}
+
+.shareprofile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  width: 300px;
+}
+.arrow {
+  margin-top: 15px;
+  font-size: larger;
+}
+.section1 {
+  border-top: 1px solid black;
+  height: 140px;
+  width: 350px;
+}
+.profile1 {
+  height: 60px;
+}
+.profile1 h3 {
+  margin: 10px 0px 0px 10px;
+}
+.profile1 p {
+  color: rgb(146, 144, 144);
+  margin: 5px 0px 0px 10px;
+}
+.group {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+.group h3 {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.buttons {
+  height: 18vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cff {
+  background-color: rgba(0, 0, 255, 0.73);
+  color: whitesmoke;
+  height: 10vh;
+  width: 23vh;
+  border: none;
+  border-radius: 10px;
+  margin: 15px 0px 0px 20px;
+  font-weight: 300;
+}
+.lm {
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  height: 10vh;
+  width: 23vh;
+  border-radius: 10px;
+  margin: 15px 20px 0px 0px;
+  font-weight: 300;
+}

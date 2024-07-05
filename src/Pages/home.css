@@ -1,0 +1,12 @@
+.shareC {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.homemain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
